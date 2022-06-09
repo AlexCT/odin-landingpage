@@ -1,2 +1,5 @@
-# odin-landingpage
-The Odin Project - Landing Page
+# The Odin Project - Landing Page Project
+
+https://www.theodinproject.com/lessons/foundations-landing-page
+
+Started 6/8/22
