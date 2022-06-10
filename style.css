@@ -2,3 +2,125 @@
    Alex Tresselt 6-8-22 */
 
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;    
+    height: 72px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.header img {
+    padding-left: 64px;
+    padding-right: 600px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header a { /* sets link text color to white and removes underline */
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px;
+
+}
+
+.header li {
+    float: left;
+}
+
+
+/*.body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}*/
+
+.main {
+    display: flex;   
+    flex-direction: column; 
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 300px;
+}
+
+.main button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    height: 25px;
+    width: 100px;
+    border: 0;
+}
+
+.info {
+    display: flex; 
+    flex-direction: column;   
+    background-color: #F9FAF8;
+    color: #1F2937;
+    height: 300px;
+    text-align: center;
+}
+
+.ibox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote {
+    display: flex; 
+    flex-direction: column;
+    flex: 1;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;  
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic; 
+}
+
+.action {
+    display: flex;
+    color: #1F2937;
+    height: 300px;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.boxinbox {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    height: 150px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    background-color: #1F2937;    
+    text-align: center;
+
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
+
