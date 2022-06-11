@@ -15,19 +15,19 @@ body {
     color: #E5E7EB;
     background-color: #1F2937;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;   
+    justify-content: space-between; 
 }
 
 .header img {
-    padding-left: 64px;
-    padding-right: 600px;
+    margin-left: 64px;
     height: 50px;
     width: 50px;
 }
 
 .header ul {
     list-style-type: none;
-    margin: 0;
+    margin-right: 64px;
     padding: 0;
 }
 
